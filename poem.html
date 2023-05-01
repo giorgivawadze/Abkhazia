@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+     <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-mrgvlovani-caps/css/bpg-mrgvlovani-caps.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+       jQuery(function($){
+        var $navbar = $('header');
+        $(window).scroll(function(event){
+            var $current = $(this).scrollTop();
+            if( $current > 0){
+                $navbar.addClass('navbar-color');
+            } else{
+                $navbar.removeClass('navbar-color');
+            }
+        });
+       });
+
+
+
+    </script>
+</head>
+<body style="background-color: rgb(167, 198, 236);">
+
+    <header style="position: fixed; top: 0;">
+        <div class="maindivofheader">
+      
+      <a href="index.html">  
+        <img class="GeoAb" src="img/Screenshot_1.png" alt="georgiaandbkhazia">
+      </a>
+     
+          <div>
+            <ul class="ultag">
+              <a href="index.html" id="white" class="greenli"><li>აფხაზეთის შესახებ</li></a>
+              <a href="poem.html" id="green" class="whiteli"><li>ლექსი</li></a>
+              <a href="game.html" class="whiteli"><li>თამაში</li></a>
+          </ul>
+          <div class="burger">
+            <div id="line1" class="line "></div>
+            <div id="line2" class="line "></div>
+            <div id="line3" class="line "></div>
+    
+          </div>
+          </div>
+        
+       </div>
+    </header>
+     <div class="abkhaz1aart">
+        <img  src="img/abkhaziapoem.jpg" alt="abkhaziaart">
+     </div>
+
+    <div class="maindivofpoemhtml">
+    <div class="aboutabkhazia">
+        <span><h2>აფხაზეთის უნახავი მიწა</h2>
+    
+          უნახავი მიწის გულის ფეთქვა
+         <br> ჩემში როგორ დაეტია ნეტავ?!
+         <br>  რატომ მომჭრა უნებლიეთ თვალი
+          <br> მოტეხილი მიმოზების შეკვრამ?!
+          <br>
+    
+                         <br> მე არ გიცნობ, ლექსებს ვყვები შენზე
+                         <br> მეგულები ცხრათავიან დევთან...
+                         <br> ლამაზ ასულს სუნთქვა რომ შეგიკრეს
+                         <br> რატომ არვინ დაიჩივლა ღმერთთან?!
+                         <br>
+                         <br>როგორ გნახო, რომელ ბილიკს გავყვე,
+                         <br>  რომელი გზა შემახვედრებს შენთან?!
+                         <br> შენ ხომ უფრო გახსოვს დედის სუნი,
+                         <br> მონატრებას აზავებდი ბედთან...
+                         <br>
+                      <br> დავადგები უსასრულო სავალს,
+                      <br>  გაუკაფავს, ძაძიანს თუ შარას...
+                      <br> ბევრჯერ მიწაც რომ დამეწვას ფეხთან,
+                      <br>დაქანცული მაინც მოვალ შენთან!
+                      <br>
+         <br> უნახავი მიწის ჩემი ნატვრა 
+         <br>  მჯერა უკვე შენც გაგიხსნის სათქმელს...
+         <br> გავიხსენებთ „იავნანამ რა ქმნა?!“
+         <br> მერე ერთად დავიჯერებთ ზღაპრებს!
+         <br>
+    
+          </span>
+      
+      </div>
+      <p class="autor">
+        გიორგი ვაწაძე,  2023წ
+      <br>  მე-9 ბ კლასი
+      <br> ქ.თბილისის 79-ე საჯარო სკოლა
+      <br> დამრიგ.: თამარ თევდორაშვილი
+    
+      </p>
+    </div>  
+    <footer style="margin-top: 5rem;">
+      <span>Created by :  <a target="_blank" href="https://www.facebook.com/profile.php?id=100090840501131"> {George Vawadze}</a> </span>
+     
+     
+     </footer>  
+    <script src="index.js"></script>
+    <script src="burger.js"></script>
+</body>
+</html>
