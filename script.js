@@ -15,10 +15,10 @@ const horseManMoveSpeed = 10;
 let score = 0;
 let lastPointTime = 0;
 let animationFrames = [
-  "../img/GHM.png",
-  "../img/animation2.png",
-  "../img/animation1.png",
-  "../img/animation3.png"
+  "img/GHM.png",
+  "img/animation2.png",
+  "img/animation1.png",
+  "img/animation3.png"
 ];
 
 
